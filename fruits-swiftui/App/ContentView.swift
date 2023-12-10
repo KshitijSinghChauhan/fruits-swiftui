@@ -23,6 +23,7 @@ struct ContentView: View {
                 }
             }
             .navigationTitle("Fruits")
+            .scrollIndicators(.visible)
         } //: Navigation
     }
 }
